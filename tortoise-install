@@ -1,0 +1,6 @@
+Download & install tortoise git
+ 
+execute below commands
+
+git config --global merge.tool tortoisemerge 
+git config --global mergetool.tortoisemerge.cmd '"C:/Program Files/TortoiseGit/bin/TortoiseGitMerge.exe" -base:"$BASE" -theirs:"$REMOTE" -mine:"$LOCAL" -merged:"$MERGED"'
